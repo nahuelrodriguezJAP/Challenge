@@ -1,0 +1,133 @@
+
+[
+    {
+        "id": 0,
+        "question": " ¿De qué país es originaria Shakira?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Colombia"
+            },
+            {
+                "id": 1,
+                "text": "España"
+            },
+            {
+                "id": 2,
+                "text": "Argentina"
+            },
+            {
+                "id": 3,
+                "text": "Portugal"
+            },
+            {
+                "id": 4,
+                "text": "Brasil"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "question": " ¿Cuántos países hay dentro del Reino Unido?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Cuatro"
+            },
+            {
+                "id": 1,
+                "text": "Tres"
+            },
+            {
+                "id": 2,
+                "text": "Cinco"
+            },
+            {
+                "id": 3,
+                "text": "Seis"
+            },
+            {
+                "id": 4,
+                "text": "Siete"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "¿Qué autor escribió los libros de Juego de tronos?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "George R. R. Martin"
+            },
+            {
+                "id": 1,
+                "text": "C. S. Lewis"
+            },
+            {
+                "id": 2,
+                "text": "J. R. R. Tolkien"
+            },
+            {
+                "id": 3,
+                "text": "J. K. Rowling"
+            },
+            {
+                "id": 4,
+                "text": "Ted Danson"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": " ¿Cómo se llama el mono mascota de Ross en Friends?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Marcel"
+            },
+            {
+                "id": 1,
+                "text": "Babe"
+            },
+            {
+                "id": 2,
+                "text": "Lassie"
+            },
+            {
+                "id": 3,
+                "text": "Muriel"
+            },
+            {
+                "id": 4,
+                "text": "Marley"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "¿Qué mamífero se sabe que tiene la mordedura más poderosa del mundo?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Hipopótamo"
+            },
+            {
+                "id": 1,
+                "text": "Caimán"
+            },
+            {
+                "id": 2,
+                "text": "León"
+            },
+            {
+                "id": 3,
+                "text": "Cocodrilo"
+            },
+            {
+                "id": 4,
+                "text": "Tiburón"
+            }
+        ]
+    }
+]

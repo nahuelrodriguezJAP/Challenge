@@ -1,0 +1,132 @@
+[
+    {
+        "id": 0,
+        "question": " ¿Qué tipo de animales criaron a Mowgli en El libro de la selva?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Lobos"
+            },
+            {
+                "id": 1,
+                "text": "Simios"
+            },
+            {
+                "id": 2,
+                "text": "Lobos"
+            },
+            {
+                "id": 3,
+                "text": "Osos"
+            },
+            {
+                "id": 4,
+                "text": "Tigres"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "question": " ¿Cuál es el deporte nacional de Canadá?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Lacrosse"
+            },
+            {
+                "id": 1,
+                "text": "Fútbol"
+            },
+            {
+                "id": 2,
+                "text": "Baloncesto"
+            },
+            {
+                "id": 3,
+                "text": "Bolos"
+            },
+            {
+                "id": 4,
+                "text": "Boxeo"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "¿Qué restaurante tiene como mascota un payaso?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "McDonald’s"
+            },
+            {
+                "id": 1,
+                "text": "Burger King"
+            },
+            {
+                "id": 2,
+                "text": "Mostaza"
+            },
+            {
+                "id": 3,
+                "text": "KFC"
+            },
+            {
+                "id": 4,
+                "text": "Subway"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "¿Cada cuántos años se llevan a cabo los Juegos Olímpicos?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Cuatro años"
+            },
+            {
+                "id": 1,
+                "text": "Seis años"
+            },
+            {
+                "id": 2,
+                "text": "Cinco años"
+            },
+            {
+                "id": 3,
+                "text": "Ocho años"
+            },
+            {
+                "id": 4,
+                "text": "Tres años"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "¿Quién fue la primera mujer en ganar un premio Nobel en 1903?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Marie Curie"
+            },
+            {
+                "id": 1,
+                "text": "Rosalind Franklin"
+            },
+            {
+                "id": 2,
+                "text": "Pearl Buck"
+            },
+            {
+                "id": 3,
+                "text": "Jane Addams"
+            },
+            {
+                "id": 4,
+                "text": "Emmy Noether"
+            }
+        ]
+    }
+]

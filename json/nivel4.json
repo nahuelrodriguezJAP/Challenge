@@ -1,0 +1,133 @@
+
+[
+    {
+        "id": 0,
+        "question": " ¿Cuál es el país más propenso a terremotos del mundo?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Japón"
+            },
+            {
+                "id": 1,
+                "text": "Corea"
+            },
+            {
+                "id": 2,
+                "text": "Taiwán"
+            },
+            {
+                "id": 3,
+                "text": "Portugal"
+            },
+            {
+                "id": 4,
+                "text": "Malasia"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "question": "¿Cómo se llama el océano más pequeño?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Océano Ártico"
+            },
+            {
+                "id": 1,
+                "text": "Océano Indio"
+            },
+            {
+                "id": 2,
+                "text": "Océano Pacífico"
+            },
+            {
+                "id": 3,
+                "text": "Océano Atlántico"
+            },
+            {
+                "id": 4,
+                "text": "Océano Antártico"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "¿Quién fue la primera persona en caminar sobre la Luna?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Neil Armstrong"
+            },
+            {
+                "id": 1,
+                "text": "Alan Shepard"
+            },
+            {
+                "id": 2,
+                "text": "Pete Conrad"
+            },
+            {
+                "id": 3,
+                "text": "James B. Irwin"
+            },
+            {
+                "id": 4,
+                "text": "Michael Collins"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "¿Cuál es el planeta más cercano al sol?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "Mercurio"
+            },
+            {
+                "id": 1,
+                "text": "Marte"
+            },
+            {
+                "id": 2,
+                "text": "Tierra"
+            },
+            {
+                "id": 3,
+                "text": "Venus"
+            },
+            {
+                "id": 4,
+                "text": "Saturno"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "¿Cuánto duró la Guerra de los Cien Años?",
+        "resp": [
+            {
+                "id": 0,
+                "text": "116 años"
+            },
+            {
+                "id": 1,
+                "text": "100 años"
+            },
+            {
+                "id": 2,
+                "text": "101 años"
+            },
+            {
+                "id": 3,
+                "text": "50 años"
+            },
+            {
+                "id": 4,
+                "text": "140 años"
+            }
+        ]
+    }
+]
