@@ -32,3 +32,8 @@ footer{
     min-height: 200px;
     
 }
+#pregunta{
+    background-color: white;
+    size: 40px;
+    font-size: 25px;
+}
