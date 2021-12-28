@@ -3,24 +3,60 @@ var nivel = 2;
 var puntos;
 var resp_desord = [0, 1, 2, 3]
 var respuestas_reordenadas = [];
+let resp0 = document.getElementsByName('r0');
+let resp1 = document.getElementsByName('r1');
+let resp2 = document.getElementsByName('r2');
+let resp3 = document.getElementsByName('r3');
+let correcta;
 function responder(x) {
 
 
 }
 function desordenar_lista(array) {
 
-
-}
-
-function ordenResp(x) {
-    
-    let i_resp = Math.floor(Math.random() * resp_desord.length)
-    for (const i in x) {
-        respuestas_reordenadas[i]= x[resp_desord[i_resp]]
-        resp_desord.splice(i_resp,1);
+    let i_resp = Math.floor(Math.random() * array.length)
+    if (i_resp == 0) {
+        document.getElementById('resp0').innerText = `${array[3].text}`
+        document.getElementById('resp0').value = `${array[3].text}`
+        document.getElementById('resp1').innerText = `${array[0].text}`
+        document.getElementById('resp1').value = `${array[0].text}`
+        document.getElementById('resp2').innerText = `${array[1].text}`
+        document.getElementById('resp2').value = `${array[1].text}`
+        document.getElementById('resp3').innerText = `${array[2].text}`
+        document.getElementById('resp3').value = `${array[2].text}`
     }
-    return respuestas_reordenadas;
+    if (i_resp == 1) {
+        document.getElementById('resp0').innerText = `${array[2].text}`
+        document.getElementById('resp0').value = `${array[2].text}`
+        document.getElementById('resp1').innerText = `${array[3].text}`
+        document.getElementById('resp1').value = `${array[3].text}`
+        document.getElementById('resp2').innerText = `${array[0].text}`
+        document.getElementById('resp2').value = `${array[0].text}`
+        document.getElementById('resp3').innerText = `${array[1].text}`
+        document.getElementById('resp3').value = `${array[1].text}`
+    }
+    if (i_resp == 2) {
+        document.getElementById('resp0').innerText = `${array[1].text}`
+        document.getElementById('resp0').value = `${array[1].text}`
+        document.getElementById('resp1').innerText = `${array[2].text}`
+        document.getElementById('resp1').value = `${array[2].text}`
+        document.getElementById('resp2').innerText = `${array[3].text}`
+        document.getElementById('resp2').value = `${array[3].text}`
+        document.getElementById('resp3').innerText = `${array[0].text}`
+        document.getElementById('resp3').value = `${array[0].text}`
+    }
+    if (i_resp == 3) {
+        document.getElementById('resp0').innerText = `${array[0].text}`
+        document.getElementById('resp0').value = `${array[0].text}`
+        document.getElementById('resp1').innerText = `${array[1].text}`
+        document.getElementById('resp1').value = `${array[1].text}`
+        document.getElementById('resp2').innerText = `${array[2].text}`
+        document.getElementById('resp2').value = `${array[2].text}`
+        document.getElementById('resp3').innerText = `${array[3].text}`
+        document.getElementById('resp3').value = `${array[3].text}`
+    }
 }
+
 
 function mostrarDatos(array) {
     let i_aleatorio = Math.floor(Math.random() * array.length)
@@ -29,26 +65,13 @@ function mostrarDatos(array) {
     // seleccion de respuestas segun indice aleatorio   
     document.getElementById('pregunta').innerText = array[i_aleatorio].question;
     // imprimo pregunta
-    console.log(ordenResp(respuestas))
-    // imprimo 4 de las 5 respuestas    
-    document.getElementById("respuestas").innerHTML = `<div class="row">
-            <div class="col-6" id="opc">
-                <strong><button type="button" id="resp" onchange="responder()" class="btn btn-outline-warning">${respuestas[0].text}</button></strong>
-            </div>
-            <div class="col-6" id="opc">
-                <strong><button type="button" id="resp" class="btn btn-outline-warning">${respuestas[1].text}</button></strong>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6" id="opc">
-                <strong><button type="button" id="resp" class="btn btn-outline-warning">${respuestas[2].text}</button></strong>
-            </div>
-            <div class="col-6" id="opc">
-                <strong><button type="button" id="resp" class="btn btn-outline-warning"> ${respuestas[3].text}</button></strong>
-            </div>
-        </div>`
+    correcta = respuestas[0].resp;
+    // agrego la respuesta correcta para verificar despues
+    // imprimo 4 de las 5 respuestas      
+    // llamo funcion de orden para las respuestas. 
+    desordenar_lista(respuestas);
+    
 
-    let resp_correcta;
 }
 // FUNCION PARA VERIFICAR NIVEL SEGUN PUNTAJE DE RESPUESTAS 
 function niveles() {
@@ -68,12 +91,27 @@ function niveles() {
         return nivel = 5;
     }
 }
+function verificarResp(x) {
+    if (x === correcta) {
+        alert('RESPUESTA CORRECTA')
+        if (nivel != 5) {
+            puntos += 100;
+        }
+    }
+    else {
+        return alert('RESPUESTA INCORRECTA, intenta denuevo')
+    }
+}
+// funcion para reiniciar el juego a 0
+function reiniciar() {
+    alert('Seguro deseas comenzar desde 0?')
+    puntos = 0;
+    nivel = 1;
+};
+console.log(
+    document.getElementById('resp0').value)
 
-
-
-
-
-
+// EVENTOS DOM 
 document.addEventListener("DOMContentLoaded", function (e) {
     getJSONData(NIVELES + nivel + '.json').then(function (resultado) {
         if (resultado.status === 'ok') {
@@ -82,5 +120,22 @@ document.addEventListener("DOMContentLoaded", function (e) {
             mostrarDatos(result);
             console.log(result)
         }
+    })
+    document.getElementById('resp0').addEventListener('click', function(e){
+        let value0=document.getElementById('resp0').value;
+        verificarResp(value0);
+    })
+    document.getElementById('resp1').addEventListener('click', function(e){
+        let value1=document.getElementById('resp1').value;
+        verificarResp(value1);
+    })
+    document.getElementById('resp2').addEventListener('click', function(e){
+        let value2=document.getElementById('resp2').value;
+        verificarResp(value2);
+    })
+    document.getElementById('resp3').addEventListener('click', function(e){
+        let value3=document.getElementById('resp3').value;
+        verificarResp(value3);
+        console.log('value3')
     })
 })
