@@ -31,23 +31,18 @@
         "question": "¿Quién fue la primera persona en ver las lunas de Júpiter?",
         "resp": [
             {
-                "id": 0,
                 "text": "Galileo Galilei"
             },
             {
-                "id": 1,
                 "text": "Albert Einstein"
             },
             {
-                "id": 2,
                 "text": "Isaac Newton"
             },
             {
-                "id": 3,
                 "text": "Nicolaus Copernicus"
             },
             {
-                "id": 4,
                 "text": "Aristóteles"
             }
         ]
@@ -57,23 +52,19 @@
         "question": "¿”K” es el símbolo químico de qué elemento?",
         "resp": [
             {
-                "id": 0,
+                
                 "text": "Potasio"
             },
             {
-                "id": 1,
                 "text": "Cromo"
             },
             {
-                "id": 2,
                 "text": "Hidrógeno"
             },
             {
-                "id": 3,
                 "text": "Titanio"
             },
             {
-                "id": 4,
                 "text": "Fosforo"
             }
         ]
@@ -83,23 +74,18 @@
         "question": "¿Cuál es la capital de Australia?",
         "resp": [
             {
-                "id": 0,
                 "text": "Canberra"
             },
             {
-                "id": 1,
                 "text": "Adelaide"
             },
             {
-                "id": 2,
                 "text": "Sydney"
             },
             {
-                "id": 3,
                 "text": "Melbourne"
             },
             {
-                "id": 4,
                 "text": "Perth"
             }
         ]
@@ -109,23 +95,18 @@
         "question": "En Roma, ¿qué animal está protegido por la ley?",
         "resp": [
             {
-                "id": 0,
                 "text": "Gatos"
             },
             {
-                "id": 1,
                 "text": "Perros"
             },
             {
-                "id": 2,
                 "text": "Pollo"
             },
             {
-                "id": 3,
                 "text": "León"
             },
             {
-                "id": 4,
                 "text": "Monos"
             }
         ]
