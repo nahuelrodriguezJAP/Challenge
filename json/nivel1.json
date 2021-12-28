@@ -1,49 +1,42 @@
-{
+[{
+    
+    "id":"0",
     "question": "¿Cuál es el animal mas rápido del mundo?",
     "resp": [
         {
-            "id": 0,
             "text": "Halcón peregrino"
         },
         {
-            "id": 1,
             "text": "Guepardo"
         },
         {
-            "id": 2,
             "text": "Tiburón"
         },
         {
-            "id": 3,
             "text": "Colibrí"
         },
         {
-            "id": 4,
             "text": "Tigre"
         }
     ]
 },
 {
+    "id":"1",
     "question": "¿De qué país vino Justin Biber?",
     "resp": [
         {
-            "id": 0,
             "text": "Canadá"
         },
         {
-            "id": 1,
             "text": "USA"
         },
         {
-            "id": 2,
             "text": "Francia"
         },
         {
-            "id": 3,
             "text": "Inglaterra"
         },
         {
-            "id": 4,
             "text": "Puerto Rico"
         }
     ]
@@ -53,23 +46,18 @@
     "question": "¿Qué dibujito animado vive en una piña debajo del mar?",
     "resp": [
         {
-            "id": 0,
             "text": "Bob Espoja"
         },
         {
-            "id": 1,
             "text": "Rick and Morty"
         },
         {
-            "id": 2,
             "text": "Nemo"
         },
         {
-            "id": 3,
             "text": "Hora de Aventura"
         },
         {
-            "id": 4,
             "text": "Los chicos del barrio"
         }
     ]
@@ -79,23 +67,23 @@
     "question": "En Los tres cerditos, ¿de qué está hecha la casa más fuerte?",
     "resp": [
         {
-            "id": 0,
+            
             "text": "Ladrillos"
         },
         {
-            "id": 1,
+            
             "text": "Palos"
         },
         {
-            "id": 2,
+          
             "text": "Paja"
         },
         {
-            "id": 3,
+            
             "text": "Bambú"
         },
         {
-            "id": 4,
+          
             "text": "Hielo"
         }
     ]
@@ -105,24 +93,24 @@
     "question": "¿Qué servicio de correo electrónico es propiedad de Microsoft?",
     "resp": [
         {
-            "id": 0,
+            
             "text": "Outlook"
         },
         {
-            "id": 1,
+            
             "text": "Yahoo Mail"
         },
         {
-            "id": 2,
+           
             "text": "Gmail"
         },
         {
-            "id": 3,
+            
             "text": "iCloud Mail"
         },
         {
-            "id": 4,
+            
             "text": "Zoho Mail"
         }
     ]
-}
+}]

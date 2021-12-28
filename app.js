@@ -1,5 +1,5 @@
 var cont = 0
-var nivel = 2;
+var nivel = 1;
 var puntos;
 var resp_desord = [0, 1, 2, 3]
 var respuestas_reordenadas = [];
@@ -7,7 +7,7 @@ let resp0 = document.getElementsByName('r0');
 let resp1 = document.getElementsByName('r1');
 let resp2 = document.getElementsByName('r2');
 let resp3 = document.getElementsByName('r3');
-let correcta;
+let correcta=[];
 function responder(x) {
 
 
@@ -65,7 +65,8 @@ function mostrarDatos(array) {
     // seleccion de respuestas segun indice aleatorio   
     document.getElementById('pregunta').innerText = array[i_aleatorio].question;
     // imprimo pregunta
-    correcta = respuestas[0].resp;
+    console.log(respuestas[0].text)
+    correcta = respuestas[0].text;
     // agrego la respuesta correcta para verificar despues
     // imprimo 4 de las 5 respuestas      
     // llamo funcion de orden para las respuestas. 
@@ -92,7 +93,9 @@ function niveles() {
     }
 }
 function verificarResp(x) {
-    if (x === correcta) {
+    console.log(x)
+    console.log(correcta)
+    if (x == correcta) {
         alert('RESPUESTA CORRECTA')
         if (nivel != 5) {
             puntos += 100;
@@ -124,14 +127,17 @@ document.addEventListener("DOMContentLoaded", function (e) {
     document.getElementById('resp0').addEventListener('click', function(e){
         let value0=document.getElementById('resp0').value;
         verificarResp(value0);
+        console.log('value0')
     })
     document.getElementById('resp1').addEventListener('click', function(e){
         let value1=document.getElementById('resp1').value;
         verificarResp(value1);
+        console.log('value1')
     })
     document.getElementById('resp2').addEventListener('click', function(e){
         let value2=document.getElementById('resp2').value;
         verificarResp(value2);
+        console.log('value2')
     })
     document.getElementById('resp3').addEventListener('click', function(e){
         let value3=document.getElementById('resp3').value;
